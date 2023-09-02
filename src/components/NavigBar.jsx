@@ -2,18 +2,18 @@
 
 import { Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
-import logo from '../images/logo.png'
+import logo from '../images/bw_logo.png'
 export default function NavigBar() {
   return (
     <Navbar
       fluid
       
-      className=" bg-alizarincrimsonred "
+      className="bg-crimsonred "
     >
       <Navbar.Brand href="/">
         <img
           alt="Kure Logistics Logo"
-          className="mr-3 h-6 sm:h-9 "
+          className="mr-3 h-12 "
           src={logo}
         />
         <span className="self-center whitespace-nowrap text-white text-xl font-semibold dark:text-white">
