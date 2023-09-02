@@ -29,24 +29,24 @@ export default function NavigBar() {
           active
           to="/"
         >
-          <p className='text-white py-2 hover:bg-bluetheme'>
+          <p className='text-white py-2 hover:bg-gray-400'>
             Home
           </p>
         </Link>
 
-        <Link to="/about" className='text-white hover:bg-bluetheme py-2 '>
+        <Link to="/about" className='text-white hover:bg-gray-400 py-2 '>
           About
         </Link>
 
-        <Link to="/why_choose_us" className='text-white  hover:bg-bluetheme py-2 '>
+        <Link to="/why_choose_us" className='text-white  hover:bg-gray-400 py-2 '>
          Why Choose Us?
         </Link>
 
-        <Link to="/gallery" className='text-white  hover:bg-bluetheme py-2 '>
+        <Link to="/gallery" className='text-white  hover:bg-gray-400 py-2 '>
           Gallery
         </Link>
 
-        <Link to="/contact" className='text-white  hover:bg-bluetheme py-2 '>
+        <Link to="/contact" className='text-white  hover:bg-gray-400 py-2 '>
           Contact
         </Link>
       </Navbar.Collapse>
