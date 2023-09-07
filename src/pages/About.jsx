@@ -1,6 +1,6 @@
 
 import pic8 from "../images/gallery/pic8.jpg";
-import {Link} from 'react-router-dom';
+//import {Link} from 'react-router-dom';
 function About() {
   return (
     <div>
