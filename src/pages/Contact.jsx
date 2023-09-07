@@ -46,14 +46,14 @@ function Contacts() {
 
                   <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
                     <a href="tel:+263 77 277 0263"><div className="  sm:items-center sm:justify-center   mt-5 mb-5">
-                       <FaMobileScreenButton className="sm:items-center sm:justify-center  my-6"/>
+                       <FaEnvelopeOpenText className="sm:items-center sm:justify-center  my-6"/>
                     </div></a>
                   </IconContext.Provider>
                   <div className="  sm:items-center sm:justify-center   mt-1">
                     <p className=" text-1xl font-normal">
                     <div><span className="text-black text-2xl font-bold"><a href="tel:0116 221 3539" 
-                    className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
-                    +263 77 277 0263 / +263 77 353 7916
+                    className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
+                    reginamukhosi@gmail.com
                     </p>
                   </div>
 
@@ -71,13 +71,13 @@ function Contacts() {
 
                 <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
                     <div className="  sm:items-center sm:justify-center  mx-5 mt-5 mb-5">
-                       <FaEnvelopeOpenText className="sm:items-center sm:justify-center mx-6 my-6"/>
+                       <FaMobileScreenButton className="sm:items-center sm:justify-center mx-6 my-6"/>
                     </div>
                   </IconContext.Provider>
                   <div className="  sm:items-center sm:justify-center  mt-1">
                     <p className=" text-1xl font-normal">
-                    <div><span className="text-black text-2xl font-bold"><a href="reginamukhosi@gmail.com" className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
-                    reginamukhosi@gmail.com
+                    <div><span className="text-black text-2xl font-bold"><a href="reginamukhosi@gmail.com" className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
+                     +263 77 277 0263 / +263 77 353 7916
                     </p>
                   </div>
             </div>
@@ -85,7 +85,7 @@ function Contacts() {
             <div className="max-w-full  sm:82 rounded-lg  sm:items-center sm:justify-center  md:ml-48 mt-8">
 
                   <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
-                    <a href="tel:+263 77 277 0263"><div className="  sm:items-center sm:justify-center   mt-5 mb-5">
+                    <a href="#"><div className="  sm:items-center sm:justify-center   mt-5 mb-5">
                        <HiLocationMarker className="sm:items-center sm:justify-center  my-6"/>
                     </div></a>
                   </IconContext.Provider>
