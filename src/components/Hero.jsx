@@ -3,8 +3,6 @@
 const Hero = () => {
   return (
     
-
-
 <section className="bg-center bg-no-repeat bg-hero_pattern bg-gray-700 bg-blend-multiply bg-cover mt-0">
     <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-44">
         <p className=" text-white text-6xl mb-6 font-cursive">Welcome to <span className="font-extrabold font-cursive">Kure Logistics</span></p>

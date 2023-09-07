@@ -20,7 +20,7 @@ module.exports = {
 
     },
     backgroundImage: {
-      'hero_pattern': "url('/src/images/truckhero.jpg')",
+      'hero_pattern': "url('/src/images/gallery/pic1.jpg')",
       
     },
     fontFamily: {
