@@ -16,8 +16,8 @@ function About() {
         </div>
 
 
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
-      <div className="flex flex-col w-full lg:w-3/4 p-8 overflow-hidden lg:flex-row">
+      <div className="min-h-screen bg-gray-100 flex items-center justify-center p-2">
+      <div className="flex flex-col w-full lg:w-3/4  overflow-hidden lg:flex-row">
       <div className="bg-blue-300 rounded-lg overflow-hidden lg:w-1/2 mt-6 sm:mt-0">
       <img src={pic8} alt="Aboutpic" className="w-full h-full object-cover" />
     </div>
