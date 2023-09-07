@@ -1,4 +1,5 @@
 import logo from '../images/bw_logo.png';
+import {Link} from 'react-router-dom'
 
 
 function Footer() {
@@ -16,13 +17,13 @@ function Footer() {
                 <div className="sm:flex sm:items-center sm:justify-center mx-12 mt-5">
     <ul className="mt-8 mx-8 flex flex-col sm:flex-row items-center mb-6 text-2xl font-medium text-white sm:mb-0 dark:text-white">
         <li className="mb-2 sm:mb-0 sm:mr-4">
-            <a href="/about" className="hover:underline md:mr-6 font-large">About</a>
+            <Link href="/about" className="hover:underline md:mr-6 font-large">About</Link>
         </li>
         <li className="mb-2 sm:mb-0 sm:mr-4">
-            <a href="/gallery" className="hover:underline md:mr-6 font-large">Gallery</a>
+            <Link to="/gallery" className="hover:underline md:mr-6 font-large">Gallery</Link>
         </li>
         <li className="mb-2 sm:mb-0">
-            <a href="/contact" className="hover:underline font-large">Contact</a>
+            <Link to="/contact" className="hover:underline font-large">Contact</Link>
         </li>
     </ul>
 </div>
