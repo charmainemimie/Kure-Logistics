@@ -3,27 +3,31 @@
 import { Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
 import logo from '../images/bw_logo.png'
+
 export default function NavigBar() {
   return (
-    <Navbar
-      fluid
-      
-      className="bg-crimsonred "
+    <Navbar   
+      className="bg-crimsonred h-38 flex justify-center items-center"
     >
+      <div className='w-full'>
+      <div className='flex justify-center items-center'>
       <Navbar.Brand href="/">
         <img
           alt="Kure Logistics Logo"
-          className="mr-3 h-12 "
+          className="mr-3 h-12 mb-8 mt-4"
           src={logo}
         />
-        <span className="self-center whitespace-nowrap text-white text-xl font-semibold dark:text-white">
+        {/* <span className="self-center whitespace-nowrap text-white text-xl font-semibold dark:text-white">
         Kure Logistics
-        </span>
+        </span> */}
       </Navbar.Brand>
-      <div className="flex md:order-2 text-white">
+      </div>
 
+      <div className='flex justify-center items-center'>
+      <div className="flex justify-center items-center text-white">
         <Navbar.Toggle />
       </div>
+
       <Navbar.Collapse>
         <Link
           active
@@ -50,6 +54,9 @@ export default function NavigBar() {
           Contact
         </Link>
       </Navbar.Collapse>
+      </div>
+      </div>
     </Navbar>
+    
   )
 }
