@@ -10,7 +10,7 @@ function Contacts() {
     <div className="container mx-auto md:mr-16 md:ml-16 pt-2 overflow-hidden">
 
         <div className="sm:flex sm:items-center sm:justify-center mx-6 mt-">
-            <span className="text-black text-2xl md:text-3xl font-bold underline decoration-alizarincrimsonred ">Contacting Kure Logistics<br/><br/></span>
+            <span className="text-black text-2xl md:text-3xl font-bold underline decoration-alizarincrimsonred ">Contacts<br/><br/></span>
                 
         </div>
 
