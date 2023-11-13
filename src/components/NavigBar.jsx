@@ -42,9 +42,9 @@ export default function NavigBar() {
           About
         </Link>
 
-  {/*       <Link to="/why_choose_us" className='text-white  hover:bg-gray-400 py-2 '>
+        <Link to="/why_choose_us" className='text-white  hover:bg-gray-400 py-2 '>
          Why Choose Us?
-        </Link> */}
+        </Link>
 
         <Link to="/gallery" className='text-white  hover:bg-gray-400 py-2 '>
           Gallery
