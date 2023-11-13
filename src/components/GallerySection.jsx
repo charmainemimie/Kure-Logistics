@@ -19,9 +19,9 @@ const galleryfiles = [
 
 function GallerySection() {
   return (
-    <div className="flex flex-wrap px-8">
+    <div className=" px-8">
       {galleryfiles.map((file) => (
-        <div key={file.id} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 p-4">
+        <div key={file.id} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 p-4">
           <img src={file.src} alt={file.title} className="max-w-full h-auto" />
         </div>
       ))}
